@@ -30,12 +30,19 @@ github_username: 5iddy
 # theme: neonnights-jekyll
 # remote_theme: 5iddy/neonnights-jekyll
 
+readme_index:
+  enabled:          true
+  remove_originals: true
+  # with_frontmatter: false
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-titles-from-headings
+  - jekyll-readme-index
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -44,6 +51,8 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-titles-from-headings
+  - jekyll-readme-index
 
 markdown: kramdown
 highlighter: rouge
