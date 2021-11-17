@@ -37,7 +37,6 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-titles-from-headings
-  - jekyll-readme-index
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -47,12 +46,7 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-titles-from-headings
-  - jekyll-readme-index
 
-readme_index:
-  enabled:          true
-  remove_originals: true
-  # with_frontmatter: false
 
 markdown: kramdown
 highlighter: rouge
