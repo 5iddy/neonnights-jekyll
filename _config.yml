@@ -74,9 +74,9 @@ kramdown:
   parse_block_html: true
   syntax_highlighter: rouge
 
-include:
-  - .htaccess
-  - _pages
+# include:
+#   - .htaccess
+#   - _pages
 
 exclude:
   - .sass-cache/
