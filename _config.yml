@@ -22,7 +22,7 @@ email: siddhuyeturi@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A Jekyll theme based on Bulma CSS Framework for Github Pages. Its
   free and opensource.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "neonnights-jekyll/" # the subpath of your site, e.g. /blog
 url: "https:/5iddy.github.io/neonnights-jekyll/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: 5iddy
 
