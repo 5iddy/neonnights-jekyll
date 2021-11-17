@@ -30,11 +30,6 @@ github_username: 5iddy
 # theme: neonnights-jekyll
 # remote_theme: 5iddy/neonnights-jekyll
 
-readme_index:
-  enabled:          true
-  remove_originals: true
-  # with_frontmatter: false
-
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -53,6 +48,11 @@ whitelist:
   - jekyll-include-cache
   - jekyll-titles-from-headings
   - jekyll-readme-index
+
+readme_index:
+  enabled:          true
+  remove_originals: true
+  # with_frontmatter: false
 
 markdown: kramdown
 highlighter: rouge
