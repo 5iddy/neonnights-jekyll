@@ -1,5 +1,5 @@
 ---
-# layout: page
+layout: post
 # title: Welcome to NeonNights!!!
 # subtitle: A futuristic and vibrant Neon Colored Theme for cyberpunks!
 permalink: /index.html
