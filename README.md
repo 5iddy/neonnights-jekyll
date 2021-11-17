@@ -1,3 +1,9 @@
+---
+layout: page
+title: Welcome to NeonNights!!!
+subtitle: A futuristic and vibrant Neon Colored Theme for cyberpunks!
+---
+
 # neonnights-jekyll
 
 Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
@@ -18,17 +24,19 @@ gem "neonnights-jekyll"
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: neonnights-jekyll
+remote_theme: 5iddy/neonnights-jekyll
 ```
 
 And then execute:
-
+```shell
     $ bundle
+```
 
 Or install it yourself as:
 
+```shell
     $ gem install neonnights-jekyll
-
+```
 ## Usage
 
 TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
